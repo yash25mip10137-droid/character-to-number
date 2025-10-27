@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+int main() {
+    int a = 10, b = 20;
+
+    // Boolean Values Display
+    printf("Boolean Values in C:\n");
+    printf("True = 1\n");
+    printf("False = 0\n\n");
+
+    // Boolean Operators Examples
+    printf("Boolean Operators:\n");
+    printf("a < b  : %d\n", a < b);   // True => 1
+    printf("a > b  : %d\n", a > b);   // False => 0
+    printf("a == b : %d\n", a == b);  // False => 0
+    printf("a != b : %d\n", a != b);  // True => 1
+    printf("a <= b : %d\n", a <= b);  // True => 1
+    printf("a >= b : %d\n", a >= b);  // False => 0
+
+    // Logical Operators
+    printf("\nLogical Operators:\n");
+    printf("(a < b) && (a != b) : %d\n", (a < b) && (a != b)); // AND
+    printf("(a > b) || (a < b) : %d\n", (a > b) || (a < b));   // OR
+    printf("!(
